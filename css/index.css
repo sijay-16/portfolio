@@ -1,0 +1,117 @@
+:root {
+  --accent: #6D4C41
+}
+
+@font-face {
+  font-family: 'roboto';
+  src: url('/src/roboto.ttf');
+}
+
+html, body {
+  padding: 0;
+  margin: 0;
+  background-color: #F4F4F4;
+}
+
+.header {
+  display: flex;
+  justify-content: center;
+  padding: 15px 0;
+  background-color: var(--accent);
+}
+
+.fi-rr-menu-burger {
+  color: white;
+  flex-grow: 0.1;
+  font-size: 25px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.title {
+  flex-grow: 1;
+  display: flex;
+  font-size: 20px;
+  color: white;
+  padding: 0;
+  margin: 0;
+  font-family: roboto;
+  align-items: center;
+  justify-content: center;
+}
+
+.doodle {
+  width: 100%;
+  height: 200px;
+  opacity: 0.8;
+  object-fit: cover;
+}
+
+.profile {
+  width: 110px;
+  height: 110px;
+  border: 3px solid var(--accent);
+  border-radius: 360px;
+}
+
+.name {
+  color: var(--accent);
+  font-size: 20px;
+  margin: 8px;
+  font-family: roboto;
+}
+
+.overlap {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  transform: translateY(-60px);
+}
+
+.bio {
+  color: #967E77;
+  font-size: 15px;
+  margin: 0;
+  font-family: roboto;
+}
+
+.links {
+  display: flex;
+  margin-top: 10px;
+}
+
+.social {
+  color: #F4F4F4;
+  width: 40px;
+  height: 40px;
+  padding: 5px;
+  font-size: 30px;
+  background-color: var(--accent);
+  border-radius: 8px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 8px;
+}
+
+.about_holder {
+  margin: 10px;
+  padding: 10px;
+  width: calc(100% - 40px);
+  border-radius: 10px;
+  background-color: white;
+}
+
+.about_title {
+  color: var(--accent);
+  font-size: 15px;
+  font-family: roboto;
+}
+
+.about_me {
+  color: #967E77;
+  font-size: 12px;
+  font-family: roboto;
+}
